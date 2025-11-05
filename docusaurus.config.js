@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Zutari Dev Wiki',
-  tagline: 'A centralized knowledge hub for developers at Zutari. This repository serves as a collaborative space for documenting best practices, coding standards, workflows, and technical guidelines across projects.',
+  tagline: 'A centralized knowledge hub for developers at Zutari. This repository serves as a collaborative space for documenting best practices, coding standards, workflows, and technical guidelines.',
   favicon: 'img/z_symbol.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -78,7 +78,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
 		// Replace with your project's social card
-		image: 'img/docusaurus-social-card.jpg',
+		image: 'img/Z_symbol.png',
 		colorMode: {
 			respectPrefersColorScheme: true,
 		},
@@ -115,7 +115,7 @@ const config = {
 			},
 			// {to: '/blog', label: 'Blog', position: 'left'},
 			{
-				href: 'https://github.com/facebook/docusaurus',
+				href: 'https://github.com/Zutari-CoDe/Zutari-Dev-Wiki',
 				label: 'GitHub',
 				position: 'right',
 			},
