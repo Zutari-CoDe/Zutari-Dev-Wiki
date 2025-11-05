@@ -21,24 +21,24 @@ This process helps maintain quality and consistency by ensuring that only verifi
 - ### Awaiting Approval ###  
     - Admin users can view and approve uploaded templates. The viewport shown in **figure 1.1** below shows templates that have been uploaded but not yet approved.
     <p align="center">
-    <img src="/zutari-dev-wiki/img/template-approval-awaiting.png" alt="Automation" width="730" height="480" />
+    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/template-approval-awaiting.png" alt="Automation" width="730" height="480" />
     </p>
 
 - ### Approve Templates ###  
     - Admin users can approve accepted templates. The buttons shown in **figure 1.2** below allows admin users to view uploaded templates and approve/dissaprove templates.
     <p align="center">
-    <img src="/zutari-dev-wiki/img/template-approval-approve.png" alt="Automation" width="730" height="480" />
+    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/template-approval-approve.png" alt="Automation" width="730" height="480" />
     </p>
 
 - ### Approved Templates ###  
     - Approved templates are then shown in the approved templates column to be consumed by all users. The viewport shown in **figure 1.3** below shows templates that have been  approved.
     <p align="center">
-    <img src="/zutari-dev-wiki/img/template-approval-approved.png" alt="Automation" width="730" height="480" />
+    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/template-approval-approved.png" alt="Automation" width="730" height="480" />
     </p>
 
 - ### Save Templates ###  
     - Admin users can then save changes. The buttons shown in **figure 1.4** below allows the admin user to save the changes and close the UI.
     <p align="center">
-    <img src="/zutari-dev-wiki/img/template-approval-save.png" alt="Automation" width="730" height="480" />
+    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/template-approval-save.png" alt="Automation" width="730" height="480" />
     </p>
 

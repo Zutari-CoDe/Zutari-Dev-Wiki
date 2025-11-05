@@ -13,7 +13,7 @@ function HomepageHeader() {
 		<header
 			className={clsx('hero hero--primary', styles.heroBanner)}
 			style={{
-				backgroundImage: "url('/img/Banner_Mustard_logo.png')",
+				backgroundImage: "url('https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/Banner_Mustard_logo.png')",
 				backgroundSize: 'cover',
 				backgroundPosition: 'center',
 				height: 250
