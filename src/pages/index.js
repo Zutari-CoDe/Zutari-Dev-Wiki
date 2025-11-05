@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
 	<Layout
-		title={`Hello from ${siteConfig.title}`}
-		description="Description will go into a meta tag in <head />">
+		title={`Zutari Dev Wiki`}
+		description="A centralized knowledge hub for developers at Zutari. This repository serves as a collaborative space for documenting best practices, coding standards, workflows, and technical guidelines.">
 		<HomepageHeader />
 		<main>
 			<HomepageFeatures />
