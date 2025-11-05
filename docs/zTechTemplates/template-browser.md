@@ -17,18 +17,18 @@ You can also **filter templates by discipline** to focus on what’s relevant to
 - ### View Templates ###  
     - The Template Browser makes it quick and easy to find, review, and manage the templates you need without leaving Excel. The viewport shown in **figure 1.1** below allows us to view and download templates. 
     <p align="center">
-    <img src="/img/template-browser-view.png" alt="Automation" width="290" height="550" />
+    <img src="/zutari-dev-wiki/img/template-browser-view.png" alt="Automation" width="290" height="550" />
     </p>
 
 - ### Filter Disciplines ###  
     - The Template Browser makes it quick and easy to find, review, and manage the templates you need without leaving Excel. The viewport shown in **figure 1.2** below allows us to view and download templates. 
     <p align="center">
-    <img src="/img/template-browser-disciplines.png" alt="Automation" width="290" height="550" />
+    <img src="/zutari-dev-wiki/img/template-browser-disciplines.png" alt="Automation" width="290" height="550" />
     </p>
 
 - ### Search Templates ###  
     - The Template Browser makes it quick and easy to find, review, and manage the templates you need without leaving Excel. The viewport shown in **figure 1.3** below allows us to view and download templates. 
     <p align="center">
-    <img src="/img/template-browser-search.png" alt="Automation" width="290" height="550" />
+    <img src="/zutari-dev-wiki/img/template-browser-search.png" alt="Automation" width="290" height="550" />
     </p>
     

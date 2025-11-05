@@ -7,7 +7,7 @@ sidebar_label: Introduction
 **ZTechTemplates** is a an Excel Add-in designed to help teams streamline how they find project templates. It provides an intuitive toolbar and task pane interface that integrates seamlessly into your existing Excel workflow — no coding required.
 
 <p align="center">
-<img src="/img/ztech-templates.png" alt="Automation" width="820" height="150" />
+<img src="/zutari-dev-wiki/img/ztech-templates.png" alt="Automation" width="820" height="150" />
 </p>
 
 ### Key Features
