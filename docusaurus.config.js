@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Zutari Dev Wiki',
+  tagline: 'A centralized knowledge hub for developers at Zutari. This repository serves as a collaborative space for documenting best practices, coding standards, workflows, and technical guidelines across projects.',
   favicon: 'img/z_symbol.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
