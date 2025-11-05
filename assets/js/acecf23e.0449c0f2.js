@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkztemplates=self.webpackChunkztemplates||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/Zutari-Dev-Wiki/blog","blogTitle":"Blog","authorsListPath":"/Zutari-Dev-Wiki/blog/authors"}')}}]);
