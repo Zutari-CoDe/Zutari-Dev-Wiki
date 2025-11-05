@@ -10,7 +10,7 @@ ZTools is a suite of Autodesk Revit add-ins designed to enhance productivity and
 The suite supports multiple versions of Autodesk Revit (2023, 2024, and 2025) and leverages **WPF/WinForms with MVVM** for a modern, responsive user interface.
 
 <p align="center">
-<img src="/zutari-dev-wiki/img/ztools-ribbon.png" alt="Automation" width="820" height="120" />
+<img src="/img/ztools-ribbon.png" alt="Automation" width="820" height="120" />
 </p>
 
 ---
@@ -27,7 +27,7 @@ The **Style Manager** is the first plugin in the ZTools suite. It is dedicated t
 The plugin provides a clear, tabbed interface to handle multiple style types.
 
 <p align="center">
-  <img src="/zutari-dev-wiki/img/styles-manager.png" alt="Automation" width="650" height="450" />
+  <img src="/img/styles-manager.png" alt="Automation" width="650" height="450" />
 </p>
 
 #### Features:
@@ -57,7 +57,7 @@ The **Section Export** plugin is dedicated to creating sectioned exports of a mo
 The plugin exports a vertical section of a building model to a new Revit file. This allows users to isolate and export elements between two selected levels (floors) in a Revit project.
 
 <p align="center">
-  <img src="/zutari-dev-wiki/img/section-export.png" alt="Automation" width="400" height="450" />
+  <img src="/img/section-export.png" alt="Automation" width="400" height="450" />
 </p>
 
 #### Features:
