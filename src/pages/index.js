@@ -8,22 +8,22 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-	const {siteConfig} = useDocusaurusContext();
-	return (
-		<header
-			className={clsx('hero hero--primary', styles.heroBanner)}
-			style={{
-				backgroundImage: "url('https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/Banner_Mustard_logo.png')",
-				backgroundSize: 'cover',
-				backgroundPosition: 'center',
-				height: 250
-			}}
-			>
-			<div className="container">
-				{/* Content here */}
-			</div>
-		</header>
-	);
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header
+      className={clsx('hero hero--primary', styles.heroBanner)}
+      style={{
+        backgroundImage: `url(https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/Banner_Mustard_logo.png)`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '250px',
+      }}
+    >
+      <div className="container">
+        {/* Content here */}
+      </div>
+    </header>
+  );
 }
 
 export default function Home() {
