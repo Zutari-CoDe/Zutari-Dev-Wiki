@@ -14,43 +14,43 @@ The plugin provides a clear, tabbed interface to handle multiple style types.
 - ### Line Patterns Manager ###  
     - Import/export line patterns via JSON for easy sharing and version control. The buttons shown in **figure 1.1** below allows us to import line pattern JSON styles. 
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-pattern-json.png" alt="Automation" width="700" height="450" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-pattern-json.png" alt="Automation" width="700" height="450" />
     </p>
 
    - View and modify line patterns and apply changes to Revit. The viewport shown in **figure 1.2** below shows the line patterns segments which can be updated. 
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-pattern-adjust.png" alt="Automation" width="700" height="450" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-pattern-adjust.png" alt="Automation" width="700" height="450" />
     </p>
 
     - Create, update, and modify line patterns and apply changes in Revit. The buttons in the left of the Toolbar in **figure 1.3** below allows us to create new line patterns, update line patterns and copy existing line patterns to later apply the changes to Revit.
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-pattern-add.png" alt="Automation" width="700" height="450" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-pattern-add.png" alt="Automation" width="700" height="450" />
     </p>
 
     - View status of plugin commands. The status bar shown in **figure 1.4** below tracks recenlty created commands and any errors that occured. 
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-pattern-status.png" alt="Automation" width="700" height="450" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-pattern-status.png" alt="Automation" width="700" height="450" />
     </p>
 
 - ### Line Styles Manager ###  
     - Import/export JSON configurations to quickly apply standards. The buttons shown in **figure 2.1** below allows us to import line styles in the JSON format. 
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-style-json.png" alt="Automation" width="700" height="450" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-style-json.png" alt="Automation" width="700" height="450" />
     </p>
 
     - Manage line styles by mapping patterns, weights, and colors and apply changes to Revit. The viewport shown in **figure 2.2** below shows the line styles. 
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-style-adjust.png" alt="Automation" width="700" height="450" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-style-adjust.png" alt="Automation" width="700" height="450" />
     </p>
 
     - Create, update, and modify line styles and apply changes in Revit. The buttons in the left of the Toolbar in **figure 2.3** below allows us to create new line styles, update line styles and copy existing line styles to later apply the changes to Revit.
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-style-add.png" alt="Automation" width="700" height="450" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-style-add.png" alt="Automation" width="700" height="450" />
     </p>
 
     - View status of plugin commands. The status bar shown in **figure 2.4** below tracks recenlty created commands and any errors that occured. 
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-style-status.png" alt="Automation" width="700" height="450" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/line-style-status.png" alt="Automation" width="700" height="450" />
     </p>
 
 

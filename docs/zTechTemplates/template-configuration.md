@@ -18,11 +18,11 @@ This feature helps you focus only on the templates that are relevant to your wor
 - ### Select a Template File ###  
     - Use the checkboxes to choose which disciplines’ templates you’d like to view. The viewport shown in **figure 1.1** below shows all the available disciplines to select from. 
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/config-disciplines.png" alt="Automation" width="320" height="400" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/config-disciplines.png" alt="Automation" width="320" height="400" />
     </p>
 
 - ### Submit Changes ###  
     - Save your selections to update what appears in your Template Browser. The button shown in **figure 1.2** below saves the selected disciplines to update the template browser. 
     <p align="center">
-    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/config-submit.png" alt="Automation" width="320" height="400" />
+      <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/config-submit.png" alt="Automation" width="320" height="400" />
     </p>
