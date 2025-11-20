@@ -19,10 +19,10 @@ It streamlines sheet creation workflows and introduces advanced view-placement a
 
 - ### Sheet Creation Methods ###  
   - Create new sheets to add to the Revit project using the selection configuration UI Tools. The buttons shown in **figure 1.2** below allows us to open the selection configuration UI to use any of the selection configuration commands which include pick points, pick line, draw line and create without selection. 
-  - Pick 2 Points: Define alignment by selecting two points. Generates aligned floor plan and elevation views automatically.
-  - Draw Line: Draw a line in the model to set the alignment direction. Views are generated and placed based on this line.
-  - Select Curve: Use any model curve as the alignment reference for automatic view creation and placement.
-  - Create Without Selection: Create a standard sheet with no alignment. Ideal for placing existing views or creating sheets from Excel.
+  - **Pick 2 Points**: Define alignment by selecting two points. Generates aligned floor plan and elevation views automatically.
+  - **Draw Line**: Draw a line in the model to set the alignment direction. Views are generated and placed based on this line.
+  - **Select Curve**: Use any model curve as the alignment reference for automatic view creation and placement.
+  - **Create Without Selection**: Create a standard sheet with no alignment. Ideal for placing existing views or creating sheets from Excel.
   <p align="center">
     <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/selection-config.png" alt="Automation" width="350" height="450"/>
   </p>
@@ -158,4 +158,15 @@ It streamlines sheet creation workflows and introduces advanced view-placement a
   - Once selected, the placement button will display the selected view placement. **Figure 1.25** below shows the selected view placement.
   <p align="center">
     <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/excel-view-sheets-placement-added.png" alt="Automation" width="850" height="550"/>
+  </p>
+
+- ### Create and Place Views ###  
+  - Once the views are selected and the placement configuration is set, we can then place the views on the sheet based on the selected configuration. **Figure 1.26** below shows the button to create the sheet if it has not been created and place the views on the sheet. 
+  <p align="center">
+    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/excel-view-sheets-create.png" alt="Automation" width="850" height="550"/>
+  </p>
+
+  - The sheet can then be viewed by double clicking on the sheet name **Figure 1.27** below shows the created sheet in Revit with the selected views placed on the sheet.
+  <p align="center">
+    <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/create-sheets-place-views.png" alt="Automation" width="750" height="450"/>
   </p>
