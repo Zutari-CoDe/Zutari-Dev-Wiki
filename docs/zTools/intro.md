@@ -27,7 +27,7 @@ The **Style Manager** is the first plugin in the ZTools suite. It is dedicated t
 The plugin provides a clear, tabbed interface to handle multiple style types.
 
 <p align="center">
-  <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/styles-manager.png" alt="Automation" width="650" height="450" />
+  <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/styles-manager.png" alt="Automation" width="800" height="550" />
 </p>
 
 #### Features:
@@ -86,8 +86,38 @@ The plugin exports a vertical section of a building model to a new Revit file. T
 - **Use Case**
   - This would be useful for extracting a single floor or multi-floor section from a large building model - for example, exporting floors 3-5 of a 20-story building as a standalone Revit file for detailed coordination or analysis.
 
+### 3. Views Sheets Manager
 
-## Roadmap
+The **Views Sheets Manager** plugin is a comprehensive Revit automation tool for creating, modifying, organizing, and batch-managing drawing sheets and their associated views.
+It streamlines sheet creation workflows and introduces advanced view-placement automation powered by geometric curve configuration.
 
-The Style Manager is the first step. ZTools will expand with additional plugins targeting automation, modeling efficiency, and quality assurance.
+<p align="center">
+  <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/views-sheets-intro.png" alt="Automation" width="850" height="550" />
+</p>
+
+#### Features:
+
+- **Manage Existing Sheets**
+  - Load all existing sheets from the active Revit project.
+  - Edit sheet properties such as number, name, and custom parameters.
+  - Add or remove views directly from sheets.
+  - Export sheet data to Excel for external editing.
+  - Import Excel files to bulk-create or update sheets.
+  - Sync all changes back to Revit with one click.
+
+- **Create New Sheets**
+  - Pick 2 Points: Define alignment by selecting two points. Generates aligned floor plan and elevation views automatically.
+  - Draw Line: Draw a line in the model to set the alignment direction. Views are generated and placed based on this line.
+  - Select Curve: Use any model curve as the alignment reference for automatic view creation and placement.
+  - Create Without Selection: Create a standard sheet with no alignment. Ideal for placing existing views or creating sheets from Excel.
+
+- **Excel Integration**
+  - Export: Send sheet data to Excel for quick editing or team collaboration.
+  - Import: Bulk-create or update sheets and sheet parameters from an Excel file.
+
+- **Views Management**
+  - View all placed views on a sheet from the Views tab.
+  - Add views from a dropdown of all Revit views (currently supports up to two).
+  - Views are automatically sized and positioned on the sheet.
+  - Remove a view using the ❌ icon — removed both in the UI and in Revit.
 
