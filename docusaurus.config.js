@@ -49,8 +49,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -74,18 +74,24 @@ const config = {
 			src: 'img/Z_symbol.png',
 			},
 			items: [
-			{
-				type: 'docSidebar',
-				sidebarId: 'zToolsSidebar',
-				position: 'left',
-				label: 'ZTools',
-			},
-				{
-				type: 'docSidebar',
-				sidebarId: 'zToolkitSidebar',
-				position: 'left',
-				label: 'ZToolkit',
-			},
+        {
+          type: 'docSidebar',
+          sidebarId: 'zToolsSidebar',
+          position: 'left',
+          label: 'ZTools',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'zToolkitSidebar',
+          position: 'left',
+          label: 'ZToolkit',
+        },
+                {
+          type: 'docSidebar',
+          sidebarId: 'zToolsContributionSidebar',
+          position: 'left',
+          label: 'Developer Guide',
+        },
 				{
 				type: 'docSidebar',
 				sidebarId: 'zTechTemplatesSidebar',
