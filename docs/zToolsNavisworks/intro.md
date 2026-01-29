@@ -37,7 +37,7 @@ The **Clash Data Reporting plugin** is the first tool in the ZTools Navisworks s
 It enables BIM coordinators and project teams to extract, structure, and publish clash detection data directly from Navisworks into centralized systems — without manual configuration or repetitive exports.
 
 <p align="center">
-  <img src="/Zutari-Dev-Wiki/img/clash-data-reporting.png" alt="Automation" width="750" height="450" />
+  <img src="https://Zutari-CoDe.github.io/Zutari-Dev-Wiki/img/clash-data-reporting.png" alt="Automation" width="750" height="450" />
 </p>
 
 #### Features:
