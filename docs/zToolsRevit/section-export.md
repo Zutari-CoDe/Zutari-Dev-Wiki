@@ -1,6 +1,6 @@
 ---
 id: section-export
-title: ZTools — Section Export
+title: Section Export
 sidebar_label: Section Export
 ---
 

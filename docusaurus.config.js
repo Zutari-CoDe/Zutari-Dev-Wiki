@@ -86,7 +86,7 @@ const config = {
           position: 'left',
           label: 'ZToolkit',
         },
-                {
+        {
           type: 'docSidebar',
           sidebarId: 'zToolsContributionSidebar',
           position: 'left',

@@ -1,6 +1,6 @@
 ---
 id: style-manager
-title: ZTools — Style-Manager
+title: Style-Manager
 sidebar_label: Style Manager
 ---
 

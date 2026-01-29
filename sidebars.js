@@ -30,24 +30,33 @@ const sidebars = {
 	zToolsSidebar: [
 	{
 		type: 'category',
-		label: 'ZTools',
+		label: 'ZTools Revit',
 		items: [
-		'zTools/intro',     
-		'zTools/style-manager',    
-		'zTools/section-export',   
-		'zTools/view-sheet-manager',  
+		'zToolsRevit/intro',     
+		'zToolsRevit/style-manager',    
+		'zToolsRevit/section-export',   
+		'zToolsRevit/view-sheet-manager',  
+		],
+	},
+	{
+		type: 'category',
+		label: 'ZTools Navisworks',
+		items: [
+		'zToolsNavisworks/intro',     
+		'zToolsNavisworks/clash-data-reporting',    
 		],
 	}],
 	zToolsContributionSidebar: [
 	{
 		type: 'category',
-		label: 'ZTools Contribution',
+		label: 'ZTools Revit Contribution',
 		items: [
 		'contribution/zTools/intro',   
 		'contribution/zTools/github',   
 		'contribution/zTools/visualStudio',  
 		],
-	},{
+	},
+	{
 		type: 'category',
 		label: 'ZToolkit Contribution',
 		items: [
