@@ -56,6 +56,7 @@ const sidebars = {
 		'contribution/zTools/azureDevOps',
 		'contribution/zTools/visualStudio',
 		'contribution/zTools/testing',
+		'contribution/zTools/claudeSkills',
 		],
 	},
 	{
