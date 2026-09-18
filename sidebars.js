@@ -53,6 +53,7 @@ const sidebars = {
 		items: [
 		'contribution/zTools/intro',
 		'contribution/zTools/github',
+		'contribution/zTools/azureDevOps',
 		'contribution/zTools/visualStudio',
 		'contribution/zTools/testing',
 		],

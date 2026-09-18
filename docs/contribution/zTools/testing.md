@@ -15,10 +15,6 @@ So ZTools splits testing into two halves, and we built our own test runner to ma
 | **Unit tests** | Pure logic — number crunching, string parsing, scale rounding | Any .NET test host, no Revit | **xUnit** |
 | **Integration tests** | Anything that touches the Revit API | **Inside Revit.exe** | **NUnit** |
 
-:::note Where the code lives
-All five test projects live on the **`ztools-tests`** branch of the ZTools repo — not on `development` or `master`. Run `git checkout ztools-tests` before you go looking for them.
-:::
-
 ---
 
 ## The Five Projects
