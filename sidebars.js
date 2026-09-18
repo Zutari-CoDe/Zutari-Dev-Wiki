@@ -51,9 +51,10 @@ const sidebars = {
 		type: 'category',
 		label: 'ZTools Revit Contribution',
 		items: [
-		'contribution/zTools/intro',   
-		'contribution/zTools/github',   
-		'contribution/zTools/visualStudio',  
+		'contribution/zTools/intro',
+		'contribution/zTools/github',
+		'contribution/zTools/visualStudio',
+		'contribution/zTools/testing',
 		],
 	},
 	{
