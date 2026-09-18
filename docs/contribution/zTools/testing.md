@@ -247,10 +247,6 @@ while (!_cancelled)
 }
 ```
 
-:::warning
-The writer deliberately uses `new UTF8Encoding(encoderShouldEmitUTF8Identifier: false)`. The default .NET Framework `StreamWriter` emits a BOM, which breaks the JSON parse on the other end.
-:::
-
 ### 3. The Revit side — `ZTools.TestRunner.Addin`
 
 A normal Revit `IExternalApplication`, deployed into the per-version Revit `Addins` folder.
@@ -452,16 +448,3 @@ public class SheetCreationTests
 ```
 
 Rebuild the integration test project, make sure Revit is open, and the new fixture shows up in Test Explorer on the next discovery pass.
-
----
-
-## ⚠️ Known Rough Edges
-
-These are real and current — worth knowing before you spend an hour debugging something confusing.
-
-1. **The filter is ignored.** `RevitTestExecutor` sends the list of selected test names as `RunTestsPayload.Filter`, but `ExecuteTests` never reads it — it always runs **every** fixture in the assembly. Right-clicking one test runs all of them; VS just only displays the one you selected.
-2. **`PipeResultListener` is dead code.** It is left over from the earlier design where the real NUnit engine ran the tests. It is still instantiated but never wired to anything. The live reporting path is `RunSingleTest`.
-3. **One run at a time.** The server allows a single instance and only accepts a new connection after the previous run finishes. Two overlapping runs mean the second hits the 15-second connect timeout.
-4. **Fixture ordering is reflection order.** No shuffling, and no isolation beyond a fresh `Activator.CreateInstance` per fixture. A test that leaves the model dirty will affect the next one — clean up in `[TearDown]`.
-5. **Exceptions in `[SetUp]` / `[TearDown]` are swallowed.** If a test fails inexplicably, check whether its setup threw silently.
-6. **`GetViewTypeNameTests` is the known-failing fixture** as of the last commit on the branch. Everything else was passing.
